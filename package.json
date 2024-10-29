@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.5"
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
   }
 }
