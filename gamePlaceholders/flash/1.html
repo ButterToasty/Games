@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Murder</title>
+        <link rel="icon" href="./favicon.ico"> <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TH10NX61NN"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9683345369199614"
+            crossorigin="anonymous"></script>
+        <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-TH10NX61NN'); </script>
+        <style>
+            /* General Styles */
+            body {
+                margin: 0;
+                padding: 0;
+                background: rgb(244, 234, 149) url("https://buttertoasty.github.io/Bowl/newBT.png") repeat;
+                background-size: 10%;
+                text-align: center;
+                font-family: Arial, sans-serif;
+            }
+
+            /* Header */
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                background: rgba(0, 0, 0, 0.8);
+                color: white;
+                font-size: 18px;
+                position: fixed;
+                width: 100%;
+                top: 0;
+                left: 0;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            .header a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                padding: 8px 16px;
+                background: #ff4747;
+                border-radius: 5px;
+                transition: background 0.3s;
+            }
+
+            .header a:hover {
+                background: #cc3b3b;
+            }
+
+            /* Game Container */
+            .game-container {
+                margin-top: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: calc(100vh - 80px);
+            }
+
+            /* SWF Game */
+            .game {
+                width: 800px;
+                height: 600px;
+                border-radius: 8px;
+                background: black;
+                box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+            }
+
+            /* Fullscreen Note */
+            .fullscreen-note {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #333;
+            }
+        </style>
+
+    </head>
+
+    <body> 
+        <!-- Header -->
+        <div class="header">
+            <div>Murder Game</div> 
+            <a href="https://buttertoasty.github.io/Bowl/">Main Menu</a>
+        </div> 
+
+        <!-- Game Section -->
+        <div class="game-container"> 
+            <object class="game" data="https://buttertoasty.github.io/emustorg1/murder.swf" type="application/x-shockwave-flash">
+                <param name="movie" value="https://buttertoasty.github.io/emustorg1/murder.swf">
+            </object> 
+        </div>
+
+        <!-- Fullscreen Note -->
+        <div class="fullscreen-note">Right Click On Game to Fullscreen</div> <!-- Ruffle Flash Emulator -->
+        <script src="https://buttertoasty.github.io/Bowl/ruffle/ruffle.js"></script>
+    </body>
+
+</html>
